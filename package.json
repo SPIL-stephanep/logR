@@ -1,0 +1,25 @@
+{
+  "name": "logR",
+  "preferGlobal": false,
+  "private": true,
+  "version": "0.1.0",
+  "author": "Stephane P. Pericat <stephane.pericat@spilgames.com>",
+  "description": "a client side logger",
+  "scripts": {
+    "start": "node ./app.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SPIL-stephanep/logR.git"
+  },
+  "keywords": [
+  ],
+  "dependencies" : {
+    "express": "3.0.x",
+    "socket.io": "*"
+  },
+  "analyze": false,
+  "engines": {
+    "node": ">=0.8"
+  } 
+}
